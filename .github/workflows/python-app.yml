@@ -30,4 +30,4 @@ jobs:
         python manage.py migrate
         python manage.py runserver &
         sleep 10  # Give the server time to start
-        curl http://127.0.0.1:8000  # Simple test 
+        curl http://127.0.0.1:8000  # Simple test done 
